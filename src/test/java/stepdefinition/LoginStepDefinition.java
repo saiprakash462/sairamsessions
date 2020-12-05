@@ -21,6 +21,7 @@ public class LoginStepDefinition {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://ui.freecrm.com/");
+		System.out.println("GIT CHECKING");
 		
 
 	}
